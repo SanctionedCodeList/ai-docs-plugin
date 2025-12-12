@@ -1,11 +1,11 @@
 {
   "name": "ai-docs",
-  "version": "1.1.0",
-  "description": "AI library documentation and best practices for Claude Code. Includes skills for Claude API, Claude Code CLI, Google Gemini, and more.",
+  "version": "1.2.0",
+  "description": "AI library documentation and best practices for Claude Code. Includes skills for Claude API, Claude Code CLI, Google Gemini API, Gemini CLI, and more.",
   "author": {
     "name": "Parker Hancock"
   },
   "repository": "https://github.com/parkerhancock/ai-docs-plugin",
   "license": "MIT",
-  "keywords": ["documentation", "gemini", "claude", "anthropic", "ai", "llm", "api", "best-practices"]
+  "keywords": ["documentation", "gemini", "claude", "anthropic", "ai", "llm", "api", "cli", "best-practices"]
 }

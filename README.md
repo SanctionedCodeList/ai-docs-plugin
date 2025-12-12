@@ -8,7 +8,8 @@ This plugin provides **Skills** that Claude can use to access up-to-date documen
 
 - **Claude API** - Messages API, tool use, Agent SDK, prompt engineering
 - **Claude Code** - CLI usage, hooks, plugins, MCP integration
-- **Google Gemini** - GenAI SDK, multimodal, structured outputs, function calling
+- **Gemini API** - google-genai SDK, multimodal, structured outputs, function calling
+- **Gemini CLI** - Google's AI CLI, tools, hooks, extensions, MCP integration
 
 ## Installation
 
@@ -77,6 +78,16 @@ Documentation for Google Gemini API:
 - Function calling and tool use
 - Context caching and optimization
 
+### gemini-cli
+
+Documentation for Gemini CLI:
+- Installation and authentication
+- CLI commands and settings
+- Built-in tools (file system, shell, web, memory)
+- Hooks and extensions
+- MCP server integration
+- Sandboxing and enterprise setup
+
 ## Syncing Documentation
 
 Each skill has a sync script to update documentation from official sources:
@@ -90,8 +101,12 @@ bun run scripts/sync-docs.ts
 cd skills/claude-code
 bun run scripts/sync-docs.ts
 
-# Sync Gemini docs (ai.google.dev)
+# Sync Gemini API docs (ai.google.dev)
 cd skills/gemini-dev
+bun run scripts/sync-docs.ts
+
+# Sync Gemini CLI docs (github.com/google-gemini/gemini-cli)
+cd skills/gemini-cli
 bun run scripts/sync-docs.ts
 ```
 
@@ -112,6 +127,11 @@ ai-docs-plugin/
 │   │   ├── scripts/
 │   │   │   └── sync-docs.ts
 │   │   └── resources/       # 42 synced doc files
+│   ├── gemini-cli/
+│   │   ├── SKILL.md         # Best practices + doc index
+│   │   ├── scripts/
+│   │   │   └── sync-docs.ts
+│   │   └── resources/       # 49 synced doc files
 │   └── gemini-dev/
 │       ├── SKILL.md         # Best practices + doc index
 │       ├── scripts/

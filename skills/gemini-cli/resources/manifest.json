@@ -1,0 +1,252 @@
+{
+  "lastSync": "2025-12-12T15:34:06.837Z",
+  "sourceRepo": "https://github.com/google-gemini/gemini-cli.git",
+  "sourceCommit": "86134e9970a80c0e97e563616fc44192defb8de1",
+  "files": {
+    "index.md": {
+      "path": "index.md",
+      "hash": "0e3eebf51d3e4afb4714e996f941bb89947713a29f625fbf4bb15718ddd704fc",
+      "lastUpdated": "2025-12-12T15:33:46.731Z"
+    },
+    "architecture.md": {
+      "path": "architecture.md",
+      "hash": "d44c8ff41d4bc8e479cb32598c875619662fc0a51499232e018a97ce32296087",
+      "lastUpdated": "2025-12-12T15:33:46.731Z"
+    },
+    "faq.md": {
+      "path": "faq.md",
+      "hash": "56f2f67403fafac8f459b317f6ad026d5073fffdd77491580e22abad56f346e8",
+      "lastUpdated": "2025-12-12T15:33:46.732Z"
+    },
+    "troubleshooting.md": {
+      "path": "troubleshooting.md",
+      "hash": "e14f1f7eb0d8d2a177ff8e98e3ccf29824f53222135b2e6f1a5b55e9bab3e083",
+      "lastUpdated": "2025-12-12T15:33:46.732Z"
+    },
+    "quota-and-pricing.md": {
+      "path": "quota-and-pricing.md",
+      "hash": "994abacac8922170292307a71ea5b7802b0f576a182e15ff38a2f6aada610d4e",
+      "lastUpdated": "2025-12-12T15:33:46.733Z"
+    },
+    "releases.md": {
+      "path": "releases.md",
+      "hash": "d87d1cfdbc4f455c1877575a8e89a1d1e9a5fbcbec2f04f8d122d3ea5731f73f",
+      "lastUpdated": "2025-12-12T15:33:46.733Z"
+    },
+    "tos-privacy.md": {
+      "path": "tos-privacy.md",
+      "hash": "e28e1390b0fc8bd7a658a70b22ef00f0f61952c72fe04a87e4599fd78fd32ad1",
+      "lastUpdated": "2025-12-12T15:33:46.734Z"
+    },
+    "get-started/index.md": {
+      "path": "get-started/index.md",
+      "hash": "3dd4681d287d4e93fe3f65249696d3b9f0bd4fb3ebcd0f369ece16db7e3b5e27",
+      "lastUpdated": "2025-12-12T15:33:46.735Z"
+    },
+    "get-started/installation.md": {
+      "path": "get-started/installation.md",
+      "hash": "8c86bd31e2a279254a3b7219dedfab05701c635b64dd3eb23ad440f9fbbf2d62",
+      "lastUpdated": "2025-12-12T15:33:46.735Z"
+    },
+    "get-started/authentication.md": {
+      "path": "get-started/authentication.md",
+      "hash": "7e1f8af6e470beef91e74fc68f149e2c1ca8bdce5cdb3501f2d044dcc591ce9a",
+      "lastUpdated": "2025-12-12T15:33:46.735Z"
+    },
+    "get-started/configuration.md": {
+      "path": "get-started/configuration.md",
+      "hash": "49e90f34b4cbfb2ea99807a17b83edc90230fdae33c5c3fd76f9fd9e7454d380",
+      "lastUpdated": "2025-12-12T15:33:46.736Z"
+    },
+    "get-started/gemini-3.md": {
+      "path": "get-started/gemini-3.md",
+      "hash": "64fa65156b7b4b2da13c4c1de087bd519489a2b510e663b4d973bd0e13b1b2cd",
+      "lastUpdated": "2025-12-12T15:33:46.736Z"
+    },
+    "get-started/examples.md": {
+      "path": "get-started/examples.md",
+      "hash": "e7d44502ab9c3f6d85e8c9724c52130ba40ee5399c5750197ec576cb3c1a0af9",
+      "lastUpdated": "2025-12-12T15:33:46.736Z"
+    },
+    "cli/index.md": {
+      "path": "cli/index.md",
+      "hash": "bdb08f1e923684321d92dd9d48841fc8b83df6ac0dab4bfd1ae4c1b350b1f8b2",
+      "lastUpdated": "2025-12-12T15:33:46.736Z"
+    },
+    "cli/commands.md": {
+      "path": "cli/commands.md",
+      "hash": "a997aaa31243bc8d2005619ed3970006646f01ed96f8405e19ad223b3d7d8ddc",
+      "lastUpdated": "2025-12-12T15:33:46.736Z"
+    },
+    "cli/settings.md": {
+      "path": "cli/settings.md",
+      "hash": "2258f0f9aefa81b787df4e5c3a0a63a7c13a44be42eb371c80824190cef3f8e9",
+      "lastUpdated": "2025-12-12T15:33:46.737Z"
+    },
+    "cli/model.md": {
+      "path": "cli/model.md",
+      "hash": "5c0fcbee9e0dd08a300860904de2ca91551171f29441601d85e89ae79ba76b6b",
+      "lastUpdated": "2025-12-12T15:33:46.737Z"
+    },
+    "cli/sandbox.md": {
+      "path": "cli/sandbox.md",
+      "hash": "ec6056a9a25d3b0a622a57488b00de18afda3d783f0af44a0ce25b954ae7edfb",
+      "lastUpdated": "2025-12-12T15:33:46.737Z"
+    },
+    "cli/custom-commands.md": {
+      "path": "cli/custom-commands.md",
+      "hash": "2562e7f541efe1c73692f3e30e3d9ce0c4e840c4dc9a124e2f9cfe3323719b2f",
+      "lastUpdated": "2025-12-12T15:33:46.737Z"
+    },
+    "cli/keyboard-shortcuts.md": {
+      "path": "cli/keyboard-shortcuts.md",
+      "hash": "c76769f5c30dae38f1f6146e0f57ec427d47ee827fabbceaf005026396065d11",
+      "lastUpdated": "2025-12-12T15:33:46.737Z"
+    },
+    "cli/checkpointing.md": {
+      "path": "cli/checkpointing.md",
+      "hash": "5010cecfeb2db5719363802f1cc7841f54e6f31f34c2c9517165a1616e774b69",
+      "lastUpdated": "2025-12-12T15:33:46.738Z"
+    },
+    "cli/trusted-folders.md": {
+      "path": "cli/trusted-folders.md",
+      "hash": "6254960b0c0b3d3048ee8672462594f1b39e1af6270a97c3a7ac72d00ad93b88",
+      "lastUpdated": "2025-12-12T15:33:46.738Z"
+    },
+    "cli/themes.md": {
+      "path": "cli/themes.md",
+      "hash": "6c573f4cd63c2c2900f68104a1d0cf325ad736dbf6cbc6135b90b37f9de32c4d",
+      "lastUpdated": "2025-12-12T15:33:46.738Z"
+    },
+    "cli/telemetry.md": {
+      "path": "cli/telemetry.md",
+      "hash": "fae15eb0310e7da40d42adba13168be21890cb6ec7e9c3f3ecdc068f3e9b0e32",
+      "lastUpdated": "2025-12-12T15:33:46.738Z"
+    },
+    "cli/token-caching.md": {
+      "path": "cli/token-caching.md",
+      "hash": "0cd2b222377c8874b7cb4e52fc8f61e198643e716aea987855d0d4780ad54f12",
+      "lastUpdated": "2025-12-12T15:33:46.738Z"
+    },
+    "cli/headless.md": {
+      "path": "cli/headless.md",
+      "hash": "9c75b2a7d2540f3ed95213652f4538203dd2b7571c59ec1ca9e91413a441cbf9",
+      "lastUpdated": "2025-12-12T15:33:46.739Z"
+    },
+    "cli/enterprise.md": {
+      "path": "cli/enterprise.md",
+      "hash": "29f5052714304676e99a4469eac4bb6074f1098e899d20684160aaeec76d5d38",
+      "lastUpdated": "2025-12-12T15:33:46.739Z"
+    },
+    "cli/uninstall.md": {
+      "path": "cli/uninstall.md",
+      "hash": "86c6ac4a17a68a84dbbc2fb8f260ffdbbc5b9bf96b14f45aa10a7c2d65b8c91a",
+      "lastUpdated": "2025-12-12T15:33:46.739Z"
+    },
+    "cli/gemini-md.md": {
+      "path": "cli/gemini-md.md",
+      "hash": "95f5864dbf72bd382d377815bc8b15e9925f82595d603579a078f1dd17bc7289",
+      "lastUpdated": "2025-12-12T15:33:46.739Z"
+    },
+    "core/index.md": {
+      "path": "core/index.md",
+      "hash": "befa4cabb7029474ac8363ef1cf1dca3aa415e4370a7ae56633b4821d532cb63",
+      "lastUpdated": "2025-12-12T15:33:46.739Z"
+    },
+    "core/tools-api.md": {
+      "path": "core/tools-api.md",
+      "hash": "aef18e7c29b91c821fe49dd75312c754782bf85bb4d63e3806c544cd276dbf5c",
+      "lastUpdated": "2025-12-12T15:33:46.740Z"
+    },
+    "core/policy-engine.md": {
+      "path": "core/policy-engine.md",
+      "hash": "b31b1e14ee2edc53b9b01f632a577ea49ce05a9409598a554e6e0689dbddad8c",
+      "lastUpdated": "2025-12-12T15:33:46.740Z"
+    },
+    "core/memport.md": {
+      "path": "core/memport.md",
+      "hash": "5791f9831434d17c4e649346174ff9e7cd5a665a96c0db8c29f495dfe03dbfb8",
+      "lastUpdated": "2025-12-12T15:33:46.740Z"
+    },
+    "tools/index.md": {
+      "path": "tools/index.md",
+      "hash": "5d1d05224cfe07d014ddf700676f37bb7f355c1652c556df0f21ced009af8347",
+      "lastUpdated": "2025-12-12T15:33:46.740Z"
+    },
+    "tools/file-system.md": {
+      "path": "tools/file-system.md",
+      "hash": "99f9c939026dd5c03c1c8b3c6aa537566d499c88894f825919e075c443662072",
+      "lastUpdated": "2025-12-12T15:33:46.741Z"
+    },
+    "tools/shell.md": {
+      "path": "tools/shell.md",
+      "hash": "b6c4835e606bb35b4f9bf8bd30fb77be5cfd86bf433761f74c76564a570c37e2",
+      "lastUpdated": "2025-12-12T15:33:46.741Z"
+    },
+    "tools/web-fetch.md": {
+      "path": "tools/web-fetch.md",
+      "hash": "5e7529881f48bb5a708f534e8a945936228a0a536666000ab02d8419ce337db3",
+      "lastUpdated": "2025-12-12T15:33:46.741Z"
+    },
+    "tools/web-search.md": {
+      "path": "tools/web-search.md",
+      "hash": "7816867eb27cf070547ff957f90c1d1e7a24c0361779fea9d113d8cde2a79739",
+      "lastUpdated": "2025-12-12T15:33:46.741Z"
+    },
+    "tools/memory.md": {
+      "path": "tools/memory.md",
+      "hash": "07b14a859037bfb04bba6012b0f1960280d88473ccd35c54c36ceacac04a9f33",
+      "lastUpdated": "2025-12-12T15:33:46.741Z"
+    },
+    "tools/todos.md": {
+      "path": "tools/todos.md",
+      "hash": "f191ba89bdc11a3c0606c03d973dbc463f548f67085b2bf889b915f2ad85b47f",
+      "lastUpdated": "2025-12-12T15:33:46.741Z"
+    },
+    "tools/mcp-server.md": {
+      "path": "tools/mcp-server.md",
+      "hash": "9a25d3ef82edf02060862b1547b048bde14d87ca0a57130bffe2ed30bf6bc866",
+      "lastUpdated": "2025-12-12T15:33:46.742Z"
+    },
+    "extensions/index.md": {
+      "path": "extensions/index.md",
+      "hash": "095dd358382b42dd96bcd6749619b1088b5344470852b94909b36bd5d17e3b1f",
+      "lastUpdated": "2025-12-12T15:33:46.742Z"
+    },
+    "extensions/getting-started-extensions.md": {
+      "path": "extensions/getting-started-extensions.md",
+      "hash": "8b042e23bf9731ea52edcc50cca4569c263c853a996864d5854f8c5d2d94259a",
+      "lastUpdated": "2025-12-12T15:34:06.835Z"
+    },
+    "extensions/extension-releasing.md": {
+      "path": "extensions/extension-releasing.md",
+      "hash": "7162ee3c9e1f7a4b7c279157a1e9462d7780cbef8678653a153182bd53c4c9c5",
+      "lastUpdated": "2025-12-12T15:34:06.836Z"
+    },
+    "hooks/index.md": {
+      "path": "hooks/index.md",
+      "hash": "ee9eeed8b345e9406476179d68eca7e8974ed5dceca3c908e63a29e1fe0149b1",
+      "lastUpdated": "2025-12-12T15:33:46.742Z"
+    },
+    "hooks/writing-hooks.md": {
+      "path": "hooks/writing-hooks.md",
+      "hash": "865679b34af67bf2e8bb5edb6595013bed34e093ee93bbf55358a20974573d43",
+      "lastUpdated": "2025-12-12T15:34:06.837Z"
+    },
+    "hooks/best-practices.md": {
+      "path": "hooks/best-practices.md",
+      "hash": "102684d71769b64f1b70a9556d885f60bf9ad6e379ef4508d5e11e9fd3f8e5a1",
+      "lastUpdated": "2025-12-12T15:34:06.837Z"
+    },
+    "ide-integration/index.md": {
+      "path": "ide-integration/index.md",
+      "hash": "540d1a8e5779b47d270e1011c0c39a6e05dfd5fc5533cc41b504a187eba3bab4",
+      "lastUpdated": "2025-12-12T15:33:46.743Z"
+    },
+    "ide-integration/ide-companion-spec.md": {
+      "path": "ide-integration/ide-companion-spec.md",
+      "hash": "beabe46c290e16037df7228ce7c6a4f2f2fccd9813d914ae8337b2f1e2c2c271",
+      "lastUpdated": "2025-12-12T15:34:06.837Z"
+    }
+  }
+}
