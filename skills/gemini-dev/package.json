@@ -1,0 +1,16 @@
+{
+  "name": "gemini-dev",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "sync": "bun run scripts/sync-docs.ts",
+    "sync:dry": "bun run scripts/sync-docs.ts --dry-run"
+  },
+  "dependencies": {
+    "turndown": "^7.2.0",
+    "linkedom": "^0.18.9"
+  },
+  "devDependencies": {
+    "@types/turndown": "^5.0.5"
+  }
+}

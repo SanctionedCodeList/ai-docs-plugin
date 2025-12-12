@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+bun.lock
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+*.log
