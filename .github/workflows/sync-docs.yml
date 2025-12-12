@@ -40,6 +40,16 @@ jobs:
           cd skills/gemini-cli
           bun run scripts/sync-docs.ts
 
+      - name: Sync OpenAI API docs
+        run: |
+          cd skills/openai-api
+          bun run scripts/sync-docs.ts
+
+      - name: Sync OpenAI Codex docs
+        run: |
+          cd skills/openai-codex
+          bun run scripts/sync-docs.ts
+
       - name: Check for changes
         id: git-check
         run: |
@@ -56,6 +66,8 @@ jobs:
           Automatically synced from:
           - platform.claude.com (Claude API)
           - code.claude.com (Claude Code)
+          - github.com/openai/openai-python (OpenAI API)
+          - github.com/openai/codex (OpenAI Codex)
           - ai.google.dev (Gemini API)
           - github.com/google-gemini/gemini-cli (Gemini CLI)
 

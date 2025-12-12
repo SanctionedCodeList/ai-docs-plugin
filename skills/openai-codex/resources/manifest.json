@@ -1,0 +1,145 @@
+{
+  "lastSync": "2025-12-12T15:39:37.737Z",
+  "sourceRepo": "https://github.com/openai/codex.git",
+  "sourceCommit": "f152b16ed9ead49541bd12d976b590cdbd2938e5",
+  "files": {
+    "readme.md": {
+      "src": "README.md",
+      "dest": "readme.md",
+      "hash": "fe80bfcfb8f03023248e8899ec0ba2f65c3db350e95702fad05a5c33f3ae9f18",
+      "lastUpdated": "2025-12-12T15:39:37.726Z"
+    },
+    "agents-md.md": {
+      "src": "AGENTS.md",
+      "dest": "agents-md.md",
+      "hash": "bbb64111e2e1f3d933cb85c0e026661a4b822029883ea6c8915206dbb02afec8",
+      "lastUpdated": "2025-12-12T15:39:37.727Z"
+    },
+    "changelog.md": {
+      "src": "CHANGELOG.md",
+      "dest": "changelog.md",
+      "hash": "8a0600e61a77311e5dfddef5c26cd19e97137220c593a44d8e149ac797583ef1",
+      "lastUpdated": "2025-12-12T15:39:37.727Z"
+    },
+    "getting-started.md": {
+      "src": "docs/getting-started.md",
+      "dest": "getting-started.md",
+      "hash": "df4469900100e8e705db75d5d8958fa455dc91bcbe0e8339b50f122546e77d94",
+      "lastUpdated": "2025-12-12T15:39:37.727Z"
+    },
+    "install.md": {
+      "src": "docs/install.md",
+      "dest": "install.md",
+      "hash": "f3a201ad30ee9821e95b9c0a82ea204fd6c49772238a07ff7b2b30040ba78f5f",
+      "lastUpdated": "2025-12-12T15:39:37.728Z"
+    },
+    "authentication.md": {
+      "src": "docs/authentication.md",
+      "dest": "authentication.md",
+      "hash": "6b604ca8948b97141c212c2712cdbe8d972998f292ca45498705564b68dfea50",
+      "lastUpdated": "2025-12-12T15:39:37.728Z"
+    },
+    "config.md": {
+      "src": "docs/config.md",
+      "dest": "config.md",
+      "hash": "4a029cf9351f2696ae5d7f2f66073dbd2b450bc5d6fdae2f9840c674a44c2c42",
+      "lastUpdated": "2025-12-12T15:39:37.728Z"
+    },
+    "example-config.md": {
+      "src": "docs/example-config.md",
+      "dest": "example-config.md",
+      "hash": "997b6bee1b34f7bb8cc9dc33326be065421f149c4853143b75d1bfce65567d6d",
+      "lastUpdated": "2025-12-12T15:39:37.729Z"
+    },
+    "sandbox.md": {
+      "src": "docs/sandbox.md",
+      "dest": "sandbox.md",
+      "hash": "4218f15692931c63ed99d1aede50ef7f5f3858ee251894378118cc0e7a8d51b2",
+      "lastUpdated": "2025-12-12T15:39:37.733Z"
+    },
+    "execpolicy.md": {
+      "src": "docs/execpolicy.md",
+      "dest": "execpolicy.md",
+      "hash": "35f2a33270da3dfafd3274f75b5b8ed83a73721f5bcf67fcf9384282fde34b7a",
+      "lastUpdated": "2025-12-12T15:39:37.733Z"
+    },
+    "exec.md": {
+      "src": "docs/exec.md",
+      "dest": "exec.md",
+      "hash": "4c6d7d53ac9eee0619ed744d3c84f6771294c4ca285df5768d22744635e5586c",
+      "lastUpdated": "2025-12-12T15:39:37.733Z"
+    },
+    "advanced.md": {
+      "src": "docs/advanced.md",
+      "dest": "advanced.md",
+      "hash": "eb35fbfb26c3b0c681852ae1be67364423ac88007704ad946d6f6433decd5659",
+      "lastUpdated": "2025-12-12T15:39:37.734Z"
+    },
+    "prompts.md": {
+      "src": "docs/prompts.md",
+      "dest": "prompts.md",
+      "hash": "9a58086ed1ab27b09c7d8c753495bc789e0ce620828d87badbaa0b4d1403333d",
+      "lastUpdated": "2025-12-12T15:39:37.734Z"
+    },
+    "skills.md": {
+      "src": "docs/skills.md",
+      "dest": "skills.md",
+      "hash": "cf940b4666e428bd71561e22db9d37fee708a03755b23689c3e94c71405b246f",
+      "lastUpdated": "2025-12-12T15:39:37.734Z"
+    },
+    "slash-commands.md": {
+      "src": "docs/slash_commands.md",
+      "dest": "slash-commands.md",
+      "hash": "f9fc763b8eeec2b78b13239d68293ed38b9c1c9fa7ba9f51ae721d73b88db1da",
+      "lastUpdated": "2025-12-12T15:39:37.734Z"
+    },
+    "agents-md-guide.md": {
+      "src": "docs/agents_md.md",
+      "dest": "agents-md-guide.md",
+      "hash": "1072540acc1aae0a20d1bd1ad62e5b06205ae1ede432672d521deb1b6ca9e1df",
+      "lastUpdated": "2025-12-12T15:39:37.735Z"
+    },
+    "faq.md": {
+      "src": "docs/faq.md",
+      "dest": "faq.md",
+      "hash": "4532647203f8bf973c0867175a32ee47b3668ca517cc9a30bb1adee8bc675f94",
+      "lastUpdated": "2025-12-12T15:39:37.735Z"
+    },
+    "contributing.md": {
+      "src": "docs/contributing.md",
+      "dest": "contributing.md",
+      "hash": "8d0bd14bcee78835d5d442793c2dfdf3c5554539479a389713a4b38d328fc3a7",
+      "lastUpdated": "2025-12-12T15:39:37.735Z"
+    },
+    "experimental.md": {
+      "src": "docs/experimental.md",
+      "dest": "experimental.md",
+      "hash": "5711b80b6ca8d59b5763d3ef73f444ca50124c79443b93fcdf1a1d4dacbf40b4",
+      "lastUpdated": "2025-12-12T15:39:37.736Z"
+    },
+    "platform-sandboxing.md": {
+      "src": "docs/platform-sandboxing.md",
+      "dest": "platform-sandboxing.md",
+      "hash": "1d69c9875e7500e7baeecc4b4f527231bd8d49d5758f5cbd58e57a2283908c92",
+      "lastUpdated": "2025-12-12T15:39:37.736Z"
+    },
+    "windows-sandbox.md": {
+      "src": "docs/windows_sandbox_security.md",
+      "dest": "windows-sandbox.md",
+      "hash": "aadd1ef308440f0a76c0523dcaded524ff229ab45986270f366d4039aca5ffa4",
+      "lastUpdated": "2025-12-12T15:39:37.736Z"
+    },
+    "zero-data-retention.md": {
+      "src": "docs/zdr.md",
+      "dest": "zero-data-retention.md",
+      "hash": "83195625b3335df67476579f1c673f950bc9a8a9580e7bf0e41d97d694643feb",
+      "lastUpdated": "2025-12-12T15:39:37.736Z"
+    },
+    "sdk/typescript.md": {
+      "src": "sdk/typescript/README.md",
+      "dest": "sdk/typescript.md",
+      "hash": "46559a0e8179ff99b1e4e1e5f954514b178b68f66bd87a4db8cdd530378e3da7",
+      "lastUpdated": "2025-12-12T15:39:37.737Z"
+    }
+  }
+}

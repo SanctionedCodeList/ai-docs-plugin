@@ -5,6 +5,8 @@ description: "Anthropic Claude API development patterns, tool use, Agent SDK, pr
 
 # Claude API Development
 
+> **Source:** https://platform.claude.com/docs
+
 This skill provides quick reference for building with the Claude API, including the Messages API, tool use, Agent SDK, and prompt engineering best practices.
 
 ## Best Practices

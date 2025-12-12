@@ -1,0 +1,41 @@
+{
+  "lastSync": "2025-12-12T15:40:23.796Z",
+  "sources": {
+    "sdk": "https://github.com/openai/openai-python.git",
+    "cookbook": "https://github.com/openai/openai-cookbook.git"
+  },
+  "commits": {
+    "sdk": "43e324ed7a8a8b6f0738254c59d732be2807a06f",
+    "cookbook": "84b24db3dcf1262e802990a628c4a7c74e038a25"
+  },
+  "files": {
+    "sdk/python-readme.md": {
+      "src": "README.md",
+      "dest": "sdk/python-readme.md",
+      "hash": "f11185277d18a3146dcd43bda72da312efd101b2f249ee9ac9af28cacdff5271",
+      "lastUpdated": "2025-12-12T15:40:23.794Z",
+      "source": "openai-python"
+    },
+    "sdk/python-api.md": {
+      "src": "api.md",
+      "dest": "sdk/python-api.md",
+      "hash": "26e8a7f12110622823bf89574e1bbf6f3a16aca8bc1cdbe579ebfdfa78fc174c",
+      "lastUpdated": "2025-12-12T15:40:23.795Z",
+      "source": "openai-python"
+    },
+    "cookbook/readme.md": {
+      "src": "README.md",
+      "dest": "cookbook/readme.md",
+      "hash": "ed596b962642ea131470fef9aa699606881f218621bae563f4b12c418ef33476",
+      "lastUpdated": "2025-12-12T15:40:23.796Z",
+      "source": "openai-cookbook"
+    },
+    "cookbook/agents.md": {
+      "src": "AGENTS.md",
+      "dest": "cookbook/agents.md",
+      "hash": "79ccfa49aac1b843fa599b4f065796657763b3df3623d6e8cfa5d0fbc62dba87",
+      "lastUpdated": "2025-12-12T15:40:23.796Z",
+      "source": "openai-cookbook"
+    }
+  }
+}

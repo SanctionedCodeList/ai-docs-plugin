@@ -5,6 +5,8 @@ description: "Gemini CLI usage patterns, tools, hooks, extensions, and best prac
 
 # Gemini CLI Development
 
+> **Source:** https://github.com/google-gemini/gemini-cli
+
 Gemini CLI is Google's AI-powered command-line assistant built on Gemini models. This skill provides quick reference for effective usage, customization, and integration.
 
 ## Best Practices

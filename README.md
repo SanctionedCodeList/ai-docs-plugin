@@ -8,6 +8,8 @@ This plugin provides **Skills** that Claude can use to access up-to-date documen
 
 - **Claude API** - Messages API, tool use, Agent SDK, prompt engineering
 - **Claude Code** - CLI usage, hooks, plugins, MCP integration
+- **OpenAI API** - Chat completions, tool use, vision, embeddings
+- **OpenAI Codex** - Codex CLI, AGENTS.md, sandbox, automation
 - **Gemini API** - google-genai SDK, multimodal, structured outputs, function calling
 - **Gemini CLI** - Google's AI CLI, tools, hooks, extensions, MCP integration
 
@@ -69,6 +71,24 @@ Documentation for Claude Code CLI:
 - Plugin development
 - CI/CD workflows
 
+### openai-api
+
+Documentation for OpenAI API:
+- Chat Completions and Responses API
+- Tool use / function calling
+- Vision and multimodal
+- Embeddings
+- Streaming and error handling
+
+### openai-codex
+
+Documentation for OpenAI Codex CLI:
+- Installation and authentication
+- Configuration and AGENTS.md
+- Sandbox mode and execpolicy
+- Non-interactive mode (`codex exec`)
+- TypeScript SDK
+
 ### gemini-dev
 
 Documentation for Google Gemini API:
@@ -105,6 +125,14 @@ bun run scripts/sync-docs.ts
 cd skills/gemini-dev
 bun run scripts/sync-docs.ts
 
+# Sync OpenAI API docs (github.com/openai/openai-python)
+cd skills/openai-api
+bun run scripts/sync-docs.ts
+
+# Sync OpenAI Codex docs (github.com/openai/codex)
+cd skills/openai-codex
+bun run scripts/sync-docs.ts
+
 # Sync Gemini CLI docs (github.com/google-gemini/gemini-cli)
 cd skills/gemini-cli
 bun run scripts/sync-docs.ts
@@ -117,26 +145,12 @@ ai-docs-plugin/
 ├── .claude-plugin/
 │   └── plugin.json          # Plugin manifest
 ├── skills/
-│   ├── claude-api/
-│   │   ├── SKILL.md         # Best practices + doc index
-│   │   ├── scripts/
-│   │   │   └── sync-docs.ts
-│   │   └── resources/       # 84 synced doc files
-│   ├── claude-code/
-│   │   ├── SKILL.md         # Best practices + doc index
-│   │   ├── scripts/
-│   │   │   └── sync-docs.ts
-│   │   └── resources/       # 42 synced doc files
-│   ├── gemini-cli/
-│   │   ├── SKILL.md         # Best practices + doc index
-│   │   ├── scripts/
-│   │   │   └── sync-docs.ts
-│   │   └── resources/       # 49 synced doc files
-│   └── gemini-dev/
-│       ├── SKILL.md         # Best practices + doc index
-│       ├── scripts/
-│       │   └── sync-docs.ts
-│       └── resources/       # 15 synced doc files
+│   ├── claude-api/          # 84 docs from platform.claude.com
+│   ├── claude-code/         # 42 docs from code.claude.com
+│   ├── openai-api/          # 4 docs from github.com/openai/*
+│   ├── openai-codex/        # 23 docs from github.com/openai/codex
+│   ├── gemini-cli/          # 49 docs from github.com/google-gemini/gemini-cli
+│   └── gemini-dev/          # 15 docs from ai.google.dev
 ├── .gitignore
 └── README.md
 ```

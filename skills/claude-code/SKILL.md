@@ -5,6 +5,8 @@ description: "Claude Code CLI development patterns, hooks, plugins, MCP integrat
 
 # Claude Code Development
 
+> **Source:** https://code.claude.com/docs
+
 Claude Code is Anthropic's official CLI for agentic coding. This skill provides quick reference for effective usage patterns, customization, and integration.
 
 ## Best Practices

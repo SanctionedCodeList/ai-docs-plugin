@@ -1,0 +1,9 @@
+{
+  "name": "openai-codex-docs",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "sync": "bun run scripts/sync-docs.ts",
+    "sync:dry": "bun run scripts/sync-docs.ts --dry-run"
+  }
+}

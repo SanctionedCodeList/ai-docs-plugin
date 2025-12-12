@@ -5,6 +5,8 @@ description: "Google Gemini API development with google-genai SDK. Use for promp
 
 # Gemini API Development
 
+> **Source:** https://ai.google.dev/gemini-api/docs
+
 Default to the official Google GenAI SDK (`google-genai`) for all prompting, streaming, batching, multimodal, and structured outputs. Use LangGraph/LangChain only for agentic workflows (multi-step + tools). Prefer async (`await client.aio...`) for all SDK calls.
 
 ## Quick Reference
