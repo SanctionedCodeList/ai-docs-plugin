@@ -97,6 +97,24 @@ agent = create_agent(
 )
 ```
 
+### Typed Tools with Pydantic Guardrails
+
+For stronger validation and better schema generation:
+
+```python
+from langchain.tools import tool
+from pydantic import BaseModel, Field
+
+class LookupParams(BaseModel):
+    ticker: str = Field(..., min_length=1, max_length=12)
+    exchange: str = Field(default="NYSE", pattern="^(NYSE|NASDAQ)$")
+
+@tool(args_schema=LookupParams)
+def fetch_quote(ticker: str, exchange: str = "NYSE") -> dict:
+    """Return latest quote for the ticker."""
+    return {"ticker": ticker.upper(), "exchange": exchange, "price": 123.45}
+```
+
 ## Memory
 
 ### Short-Term Memory (Conversation History)
@@ -194,6 +212,34 @@ if user_approves:
     result = agent.invoke(None, config)  # Continue execution
 ```
 
+## Concurrent Requests
+
+Run multiple queries in parallel with a single agent:
+
+```python
+import asyncio
+
+queries = ["weather in SF", "weather in NYC", "weather in LA"]
+
+async def run(q: str):
+    return await agent.ainvoke({"messages": [{"role": "user", "content": q}]})
+
+results = await asyncio.gather(*(run(q) for q in queries))
+```
+
+## Testing
+
+Mock tools for deterministic tests:
+
+```python
+from unittest.mock import patch
+
+def test_weather_agent():
+    with patch(__name__ + ".get_weather", return_value="Clear skies"):
+        resp = agent.invoke({"messages": [{"role": "user", "content": "weather in SF?"}]})
+        assert "Clear" in resp["messages"][-1]["content"]
+```
+
 ## Best Practices
 
 1. **Use string model identifiers** for quick prototyping; switch to model instances for production control
@@ -202,6 +248,8 @@ if user_approves:
 4. **Enable streaming** for better UX in interactive applications
 5. **Set appropriate timeouts** on model instances for production reliability
 6. **Use thread_id** for conversation continuity across requests
+7. **Validate tool inputs** - use Pydantic schemas for strict argument validation
+8. **Make tools idempotent** - side effects should be safe to retry
 
 ## When to Use LangGraph Instead
 

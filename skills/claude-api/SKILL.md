@@ -180,6 +180,71 @@ with client.messages.stream(
         print(text, end="", flush=True)
 ```
 
+### Async Pattern
+
+For high-throughput applications, use `AsyncAnthropic`:
+
+```python
+import asyncio
+from anthropic import AsyncAnthropic
+
+client = AsyncAnthropic()
+
+async def main():
+    response = await client.messages.create(
+        model="claude-sonnet-4-20250514",
+        max_tokens=1024,
+        messages=[{"role": "user", "content": "Hello"}]
+    )
+    print(response.content[0].text)
+
+asyncio.run(main())
+```
+
+### Files API
+
+Upload and reference files in conversations:
+
+```python
+# Upload a file
+upload = await client.files.create(
+    file=open("document.pdf", "rb"),
+    purpose="messages"
+)
+
+# Use in messages
+response = await client.messages.create(
+    model="claude-sonnet-4-20250514",
+    max_tokens=1024,
+    messages=[{
+        "role": "user",
+        "content": [
+            {"type": "file", "file_id": upload.id},
+            {"type": "text", "text": "Summarize this document"}
+        ]
+    }]
+)
+
+# Cleanup
+await client.files.delete(upload.id)
+```
+
+### Testing
+
+Mock the client for deterministic tests:
+
+```python
+from unittest.mock import patch, MagicMock
+
+def test_chat():
+    mock_response = MagicMock()
+    mock_response.content = [MagicMock(text="Test response")]
+
+    with patch("anthropic.Anthropic") as mock_client:
+        mock_client.return_value.messages.create.return_value = mock_response
+        # Your test code here
+```
+
 ## Documentation Index
 
 Detailed official documentation is synced to `resources/`. Consult these for specifics beyond this quick reference.

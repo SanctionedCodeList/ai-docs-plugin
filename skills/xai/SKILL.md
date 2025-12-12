@@ -9,7 +9,7 @@ description: "xAI API (Grok) documentation - chat completions, reasoning, tools,
 
 xAI provides the Grok family of AI models via a REST API that's OpenAI-compatible. Grok excels at truthful, insightful answers with unique capabilities like live web search and reasoning.
 
-## Quick Start
+## Quick Start (OpenAI-Compatible)
 
 ```python
 from openai import OpenAI
@@ -27,6 +27,66 @@ response = client.chat.completions.create(
 )
 print(response.choices[0].message.content)
 ```
+
+## Native xai-sdk (gRPC)
+
+For advanced features, use the native SDK (`pip install xai-sdk`):
+
+```python
+import asyncio
+from xai_sdk import AsyncClient
+from xai_sdk.chat import system, user
+
+async def main():
+    client = AsyncClient()  # reads XAI_API_KEY
+    chat = client.chat.create(
+        model="grok-3",
+        messages=[system("You are concise.")]
+    )
+    chat.append(user("Summarize this API."))
+    resp = await chat.sample()
+    print(resp.content)
+
+asyncio.run(main())
+```
+
+### Streaming (SDK)
+
+```python
+from xai_sdk.chat import user
+
+chat.append(user("Explain Grok."))
+async for resp, chunk in chat.stream():
+    print(chunk.content, end="", flush=True)
+chat.append(resp)  # Keep history
+```
+
+### Files API (SDK)
+
+```python
+from xai_sdk import AsyncClient
+
+client = AsyncClient()
+
+# Upload
+uploaded = await client.files.upload("doc.pdf")
+
+# List files
+resp = await client.files.list(limit=10, order="desc")
+
+# Get content
+content = await client.files.content(uploaded.id)
+
+# Delete
+await client.files.delete(uploaded.id)
+```
+
+### SDK Configuration
+
+- Set `XAI_API_KEY` env var or pass `api_key=`
+- Default timeout: 900s (configure with `timeout=` on client)
+- gRPC retries enabled by default; disable with `channel_options=[("grpc.enable_retries", 0)]`
+- Telemetry: `xai-sdk[telemetry-http]` or `[telemetry-grpc]` for OpenTelemetry
 
 ## Model Selection
 

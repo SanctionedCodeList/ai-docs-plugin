@@ -147,6 +147,45 @@ response = client.embeddings.create(
 embedding = response.data[0].embedding
 ```
 
+### Audio APIs
+
+#### Text-to-Speech
+
+```python
+response = client.audio.speech.create(
+    model="tts-1",  # or "tts-1-hd" for higher quality
+    voice="alloy",  # alloy, echo, fable, onyx, nova, shimmer
+    input="Hello world!"
+)
+response.stream_to_file("speech.mp3")
+```
+
+#### Speech-to-Text
+
+```python
+with open("audio.mp3", "rb") as audio_file:
+    transcript = client.audio.transcriptions.create(
+        model="whisper-1",
+        file=audio_file
+    )
+print(transcript.text)
+```
+
+### Realtime API
+
+For full-duplex text/audio conversations:
+
+```python
+from openai import OpenAI
+
+client = OpenAI()
+
+# Realtime sessions use WebSocket connections
+# See platform.openai.com/docs/guides/realtime for setup
+```
+
+**Models:** `gpt-4o-realtime-preview`, `gpt-4o-mini-realtime-preview`
+
 ## Quick Reference
 
 ### Python SDK
