@@ -1,0 +1,678 @@
+{
+  "lastSync": "2025-12-12T15:27:44.594Z",
+  "baseUrl": "https://platform.claude.com/docs/en",
+  "files": {
+    "intro.md": {
+      "slug": "intro",
+      "title": "Introduction",
+      "description": "Introduction to Claude API",
+      "hash": "f499303440151d95e0af5fc1b0842efbc014109af2b7e9a42470f8bd5391ca81",
+      "lastUpdated": "2025-12-12T15:27:20.713Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/intro"
+    },
+    "get-started.md": {
+      "slug": "get-started",
+      "title": "Get Started",
+      "description": "Make your first API call",
+      "hash": "6ebe4f3b0e8efec761ade8eb655378537095f3c85ff52031bd0451ee4a13a01c",
+      "lastUpdated": "2025-12-12T15:27:21.326Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/get-started"
+    },
+    "models/overview.md": {
+      "slug": "about-claude/models/overview",
+      "title": "Models Overview",
+      "description": "Available Claude models and capabilities",
+      "hash": "2c76fce1cf7ec0c1cedd672b172a8ec2e057613f1df5cba7b5f1e91eaa3bc68e",
+      "lastUpdated": "2025-12-12T15:27:21.551Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/about-claude/models/overview"
+    },
+    "models/choosing-a-model.md": {
+      "slug": "about-claude/models/choosing-a-model",
+      "title": "Choosing a Model",
+      "description": "How to select the right model for your use case",
+      "hash": "16aa3e0201d636077e7f2d6db861bad601ceca55dd168abe87e105f22f1b9413",
+      "lastUpdated": "2025-12-12T15:27:21.933Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/about-claude/models/choosing-a-model"
+    },
+    "models/whats-new-claude-4-5.md": {
+      "slug": "about-claude/models/whats-new-claude-4-5",
+      "title": "What's New in Claude 4.5",
+      "description": "Latest features in Claude 4.5",
+      "hash": "4b5be0e9e17eac4da2015079092f79d5742dc2659a2de72efbaeb01361ed6223",
+      "lastUpdated": "2025-12-12T15:27:22.249Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-5"
+    },
+    "models/migrating-to-claude-4.md": {
+      "slug": "about-claude/models/migrating-to-claude-4",
+      "title": "Migrating to Claude 4",
+      "description": "Migration guide for Claude 4",
+      "hash": "5387e55786276e761eab224961baf384ea744499569f79f1056b49717519d695",
+      "lastUpdated": "2025-12-12T15:27:22.513Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/about-claude/models/migrating-to-claude-4"
+    },
+    "models/deprecations.md": {
+      "slug": "about-claude/model-deprecations",
+      "title": "Model Deprecations",
+      "description": "Deprecated models and migration paths",
+      "hash": "502ab45e7145066bdb179815fa3ac2c7f7663022966bc6516e36aa60c51908d1",
+      "lastUpdated": "2025-12-12T15:27:22.732Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+    },
+    "pricing.md": {
+      "slug": "about-claude/pricing",
+      "title": "Pricing",
+      "description": "API pricing and token costs",
+      "hash": "125ddddaa10d6699e570cc8469fb7c2f4c3cbba46b0bc21897bbb028686df8bf",
+      "lastUpdated": "2025-12-12T15:27:23.038Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    "glossary.md": {
+      "slug": "about-claude/glossary",
+      "title": "Glossary",
+      "description": "Key terms and definitions",
+      "hash": "6154d7f62147afccb8dbc3bd8eea1a706477e21f62faaf644a34924ef7d27adc",
+      "lastUpdated": "2025-12-12T15:27:23.524Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/about-claude/glossary"
+    },
+    "features/overview.md": {
+      "slug": "build-with-claude/overview",
+      "title": "Features Overview",
+      "description": "All Claude API features and capabilities",
+      "hash": "f966bdffd470568569552a457a210f6228709acff6c0a91b2fdd600ba3c8a40b",
+      "lastUpdated": "2025-12-12T15:27:24.043Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/overview"
+    },
+    "features/messages.md": {
+      "slug": "build-with-claude/working-with-messages",
+      "title": "Working with Messages",
+      "description": "Messages API basics and patterns",
+      "hash": "31c3ab9c3d68c89f71c39d4e2a23b6ac5250eede9d27e03e5d3667775ef7e81e",
+      "lastUpdated": "2025-12-12T15:27:24.389Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/working-with-messages"
+    },
+    "features/context-windows.md": {
+      "slug": "build-with-claude/context-windows",
+      "title": "Context Windows",
+      "description": "Understanding and using context windows",
+      "hash": "5f3b0721e663a0e34358283e7ffa6ad249366fa1ef7c3cbfbc67d12eb7ee2a3f",
+      "lastUpdated": "2025-12-12T15:27:24.601Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/context-windows"
+    },
+    "features/prompt-caching.md": {
+      "slug": "build-with-claude/prompt-caching",
+      "title": "Prompt Caching",
+      "description": "Reduce costs with prompt caching",
+      "hash": "ed8a8bbdbedc1d9175e463a9a5d6683b2c8d8a1c6e5c7fe153307ab65f9be2c3",
+      "lastUpdated": "2025-12-12T15:27:25.211Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching"
+    },
+    "features/context-editing.md": {
+      "slug": "build-with-claude/context-editing",
+      "title": "Context Editing",
+      "description": "Automatic context management",
+      "hash": "c3d46d46b585f5b3bdc80e66b132af3091735f6703c0b19207a523c263a15801",
+      "lastUpdated": "2025-12-12T15:27:25.450Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/context-editing"
+    },
+    "features/extended-thinking.md": {
+      "slug": "build-with-claude/extended-thinking",
+      "title": "Extended Thinking",
+      "description": "Enhanced reasoning for complex tasks",
+      "hash": "575503bb6ad1975342e7ce0272872495037caeb900c9c327d075e9d0cac0d69a",
+      "lastUpdated": "2025-12-12T15:27:25.673Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking"
+    },
+    "features/effort.md": {
+      "slug": "build-with-claude/effort",
+      "title": "Effort Parameter",
+      "description": "Control response thoroughness",
+      "hash": "0eba3b96e40cf63351d2ae8d81e42e7d5b3bc1518817e73bb1d8b2319ba9440d",
+      "lastUpdated": "2025-12-12T15:27:25.892Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/effort"
+    },
+    "features/streaming.md": {
+      "slug": "build-with-claude/streaming",
+      "title": "Streaming",
+      "description": "Stream responses in real-time",
+      "hash": "d49b07ef077941d897e8f17961113d6758ef1da6ecd37670cbef23fbb54529c5",
+      "lastUpdated": "2025-12-12T15:27:26.141Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/streaming"
+    },
+    "features/batch-processing.md": {
+      "slug": "build-with-claude/batch-processing",
+      "title": "Batch Processing",
+      "description": "Process large volumes asynchronously",
+      "hash": "14943d2ee43211736fae184082bd16e5604e29ed2b0cac223f68c3d65d0c5ef5",
+      "lastUpdated": "2025-12-12T15:27:26.373Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/batch-processing"
+    },
+    "features/citations.md": {
+      "slug": "build-with-claude/citations",
+      "title": "Citations",
+      "description": "Ground responses in source documents",
+      "hash": "a5a13e85921e891a29bc6f2cbca321bca2b602b03294dd76975bd9dd60584c1c",
+      "lastUpdated": "2025-12-12T15:27:26.871Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/citations"
+    },
+    "features/multilingual.md": {
+      "slug": "build-with-claude/multilingual-support",
+      "title": "Multilingual Support",
+      "description": "Working with multiple languages",
+      "hash": "2acbb2dbbcf90e158972d2901a7d4ceac97787f0b7d9112a31bdc0414b6f0e34",
+      "lastUpdated": "2025-12-12T15:27:27.121Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/multilingual-support"
+    },
+    "features/token-counting.md": {
+      "slug": "build-with-claude/token-counting",
+      "title": "Token Counting",
+      "description": "Count tokens before sending",
+      "hash": "b4d7ca0b84c1ef373333a9b9112154c29d7f663296f3331fff27e5f47265eb64",
+      "lastUpdated": "2025-12-12T15:27:27.336Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/token-counting"
+    },
+    "features/embeddings.md": {
+      "slug": "build-with-claude/embeddings",
+      "title": "Embeddings",
+      "description": "Generate text embeddings",
+      "hash": "2bf89327c6a181d0bec6260826b75e302cc319e27de4bdb239f3523a2a9964a6",
+      "lastUpdated": "2025-12-12T15:27:27.565Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/embeddings"
+    },
+    "features/vision.md": {
+      "slug": "build-with-claude/vision",
+      "title": "Vision",
+      "description": "Process and analyze images",
+      "hash": "8ae555eb66560c0e3174098555b4f85a432219bff75ee3b5f13e3695db4478da",
+      "lastUpdated": "2025-12-12T15:27:27.790Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/vision"
+    },
+    "features/pdf-support.md": {
+      "slug": "build-with-claude/pdf-support",
+      "title": "PDF Support",
+      "description": "Process PDF documents",
+      "hash": "1adc9442c82430562207772d2cee24a6e0c03353b7aba8c73091fef0d8225b8b",
+      "lastUpdated": "2025-12-12T15:27:28.027Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/pdf-support"
+    },
+    "features/files-api.md": {
+      "slug": "build-with-claude/files",
+      "title": "Files API",
+      "description": "Upload and manage files",
+      "hash": "d2a502d4b695328f7f6717c15cf0ca17f9764d076c212c8b584c69efe73e3c67",
+      "lastUpdated": "2025-12-12T15:27:28.374Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/files"
+    },
+    "features/search-results.md": {
+      "slug": "build-with-claude/search-results",
+      "title": "Search Results",
+      "description": "Natural citations for RAG",
+      "hash": "20aaace83f55a996a6992d76cd4ab9929c224ba443d827a2ba516d95bc0a5ba0",
+      "lastUpdated": "2025-12-12T15:27:28.616Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/search-results"
+    },
+    "features/structured-outputs.md": {
+      "slug": "build-with-claude/structured-outputs",
+      "title": "Structured Outputs",
+      "description": "Guarantee JSON schema conformance",
+      "hash": "a9575f34b2ec9dc1ae04c7be097e565d9e4560f46bf5667bf27f1764a78b16e5",
+      "lastUpdated": "2025-12-12T15:27:29.088Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs"
+    },
+    "prompting/overview.md": {
+      "slug": "build-with-claude/prompt-engineering/overview",
+      "title": "Prompt Engineering Overview",
+      "description": "Introduction to prompt engineering",
+      "hash": "03977ae9685890ff93bd6161f3188a2a3cdd77d984f22fcf0c2f0368e056d298",
+      "lastUpdated": "2025-12-12T15:27:29.451Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview"
+    },
+    "prompting/be-clear-and-direct.md": {
+      "slug": "build-with-claude/prompt-engineering/be-clear-and-direct",
+      "title": "Be Clear and Direct",
+      "description": "Writing clear prompts",
+      "hash": "47808dfca7cbe338c6b20c9b50fd67dc2c660fa0f22395a037d78570538e032a",
+      "lastUpdated": "2025-12-12T15:27:29.691Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/be-clear-and-direct"
+    },
+    "prompting/multishot-prompting.md": {
+      "slug": "build-with-claude/prompt-engineering/multishot-prompting",
+      "title": "Multi-shot Prompting",
+      "description": "Using examples in prompts",
+      "hash": "0c65f2658a9646a987968328a294203f7688f65b12b180282b7f2baa5ead42e8",
+      "lastUpdated": "2025-12-12T15:27:30.014Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/multishot-prompting"
+    },
+    "prompting/chain-of-thought.md": {
+      "slug": "build-with-claude/prompt-engineering/chain-of-thought",
+      "title": "Chain of Thought",
+      "description": "Step-by-step reasoning",
+      "hash": "297a74968ca6104996c6c4e298d206fdc890786e8c3862a4025c14daaa5b5324",
+      "lastUpdated": "2025-12-12T15:27:30.401Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-of-thought"
+    },
+    "prompting/use-xml-tags.md": {
+      "slug": "build-with-claude/prompt-engineering/use-xml-tags",
+      "title": "Use XML Tags",
+      "description": "Structure prompts with XML",
+      "hash": "3ac65b4781071ccdb21d970473e72fb0d8e046d92a40c4e88835ba01409d71a5",
+      "lastUpdated": "2025-12-12T15:27:30.619Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/use-xml-tags"
+    },
+    "prompting/system-prompts.md": {
+      "slug": "build-with-claude/prompt-engineering/system-prompts",
+      "title": "System Prompts",
+      "description": "Setting context with system prompts",
+      "hash": "9ee34981d522ea1e45a9af288e7466a6566194dbaedae9c9b8fc6413b4e2debc",
+      "lastUpdated": "2025-12-12T15:27:30.896Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/system-prompts"
+    },
+    "prompting/prefill-response.md": {
+      "slug": "build-with-claude/prompt-engineering/prefill-claudes-response",
+      "title": "Prefill Response",
+      "description": "Guide output format",
+      "hash": "2c5aa179428c3bf057f2cd7754b37f830948f9a5aea3fe8d24a38ad974e9f8bb",
+      "lastUpdated": "2025-12-12T15:27:31.130Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prefill-claudes-response"
+    },
+    "prompting/chain-prompts.md": {
+      "slug": "build-with-claude/prompt-engineering/chain-prompts",
+      "title": "Chain Prompts",
+      "description": "Breaking complex tasks into steps",
+      "hash": "733c4480b4bd10b3da2d9771f2cebda7b00c82b5cc8a6be655b7db84e9ee6e71",
+      "lastUpdated": "2025-12-12T15:27:31.455Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-prompts"
+    },
+    "prompting/long-context-tips.md": {
+      "slug": "build-with-claude/prompt-engineering/long-context-tips",
+      "title": "Long Context Tips",
+      "description": "Working with large contexts",
+      "hash": "c848861729c5fa653b158d6edd835da2310c38c920e50171d68e7172e69acae8",
+      "lastUpdated": "2025-12-12T15:27:31.689Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/long-context-tips"
+    },
+    "prompting/extended-thinking-tips.md": {
+      "slug": "build-with-claude/prompt-engineering/extended-thinking-tips",
+      "title": "Extended Thinking Tips",
+      "description": "Prompting for extended thinking",
+      "hash": "af5844404fdcfa36cce709400276546e655bd545c60b5b732a7ba36b1fff9cf0",
+      "lastUpdated": "2025-12-12T15:27:31.916Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/extended-thinking-tips"
+    },
+    "prompting/claude-4-best-practices.md": {
+      "slug": "build-with-claude/prompt-engineering/claude-4-best-practices",
+      "title": "Claude 4 Best Practices",
+      "description": "Best practices for Claude 4 models",
+      "hash": "1bd8b813e6da66a6cf6faa3862d69254699c11829fdb4ea843d6ec69575795cf",
+      "lastUpdated": "2025-12-12T15:27:32.148Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices"
+    },
+    "tools/overview.md": {
+      "slug": "agents-and-tools/tool-use/overview",
+      "title": "Tool Use Overview",
+      "description": "Enable Claude to use external tools",
+      "hash": "f94ea3bfa814b08722bd1696803c7222b6287d6a7c378a67a223680edf22ac33",
+      "lastUpdated": "2025-12-12T15:27:32.512Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview"
+    },
+    "tools/implement-tool-use.md": {
+      "slug": "agents-and-tools/tool-use/implement-tool-use",
+      "title": "Implement Tool Use",
+      "description": "How to implement tool use",
+      "hash": "daa8f0873ede71655e81af51d45830ddc5879ac839abaa013d523358a1fe738a",
+      "lastUpdated": "2025-12-12T15:27:32.999Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use"
+    },
+    "tools/tool-streaming.md": {
+      "slug": "agents-and-tools/tool-use/fine-grained-tool-streaming",
+      "title": "Tool Streaming",
+      "description": "Stream tool parameters",
+      "hash": "59f78994e86fa332869e77e701e2bf34f1dffbe0a562f0424e90bf3ee0c02f6b",
+      "lastUpdated": "2025-12-12T15:27:33.228Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/fine-grained-tool-streaming"
+    },
+    "tools/bash-tool.md": {
+      "slug": "agents-and-tools/tool-use/bash-tool",
+      "title": "Bash Tool",
+      "description": "Execute shell commands",
+      "hash": "f3c3c6a00ec0499f673ebc25ed81a81f0aba9905640f2b20591f37a914e9e5ae",
+      "lastUpdated": "2025-12-12T15:27:33.457Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool"
+    },
+    "tools/code-execution.md": {
+      "slug": "agents-and-tools/tool-use/code-execution-tool",
+      "title": "Code Execution",
+      "description": "Run Python in sandbox",
+      "hash": "8718c6f3356b0369de4d813137e35f37605e186d827bf88b64512e0b88f1490f",
+      "lastUpdated": "2025-12-12T15:27:33.678Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool"
+    },
+    "tools/programmatic-tool-calling.md": {
+      "slug": "agents-and-tools/tool-use/programmatic-tool-calling",
+      "title": "Programmatic Tool Calling",
+      "description": "Call tools from code execution",
+      "hash": "3b90a7d549a1ff55426cb1c3bec0305f52223f8f6e702b42c999008277e66298",
+      "lastUpdated": "2025-12-12T15:27:33.946Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling"
+    },
+    "tools/computer-use.md": {
+      "slug": "agents-and-tools/tool-use/computer-use-tool",
+      "title": "Computer Use",
+      "description": "Control computer interfaces",
+      "hash": "6b3cfa128d480e68cf74ceefec1ec65955f022c209dbaba2d1717c77d26a52be",
+      "lastUpdated": "2025-12-12T15:27:34.177Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool"
+    },
+    "tools/text-editor.md": {
+      "slug": "agents-and-tools/tool-use/text-editor-tool",
+      "title": "Text Editor",
+      "description": "Create and edit files",
+      "hash": "1f276035e9418c9ea35d0c5b8b013ecb248d6b2c76846ea769d3d683f94e9a4b",
+      "lastUpdated": "2025-12-12T15:27:34.406Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool"
+    },
+    "tools/web-fetch.md": {
+      "slug": "agents-and-tools/tool-use/web-fetch-tool",
+      "title": "Web Fetch",
+      "description": "Retrieve web content",
+      "hash": "fd1aa6e1fa906046636dca6b9ce3a32fae89880a419b91be5448d157dc8afac2",
+      "lastUpdated": "2025-12-12T15:27:34.626Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-fetch-tool"
+    },
+    "tools/web-search.md": {
+      "slug": "agents-and-tools/tool-use/web-search-tool",
+      "title": "Web Search",
+      "description": "Search the web",
+      "hash": "fbb6903d51fc6421ddd27f7e02fb89c60cde2bbbfc6f3bf73da7e3663c59979b",
+      "lastUpdated": "2025-12-12T15:27:34.880Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool"
+    },
+    "tools/memory.md": {
+      "slug": "agents-and-tools/tool-use/memory-tool",
+      "title": "Memory Tool",
+      "description": "Store and retrieve information",
+      "hash": "be2796bd40d1bb36c23f1ccb1a9619b73fc9151cc9e055eb3dbdd65476d42d0b",
+      "lastUpdated": "2025-12-12T15:27:35.105Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool"
+    },
+    "tools/tool-search.md": {
+      "slug": "agents-and-tools/tool-use/tool-search-tool",
+      "title": "Tool Search",
+      "description": "Dynamic tool discovery",
+      "hash": "19323f70c17c0e231f94a0c2388df54182951c5aa3ca8c181b220db67934a65f",
+      "lastUpdated": "2025-12-12T15:27:35.355Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool"
+    },
+    "skills/overview.md": {
+      "slug": "agents-and-tools/agent-skills/overview",
+      "title": "Agent Skills Overview",
+      "description": "Extend Claude with Skills",
+      "hash": "44677f8b8d5c44fa6b0a395603d4c109b08eb6dcd380936da1e77bce9f981104",
+      "lastUpdated": "2025-12-12T15:27:35.574Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview"
+    },
+    "skills/quickstart.md": {
+      "slug": "agents-and-tools/agent-skills/quickstart",
+      "title": "Skills Quickstart",
+      "description": "Create your first Skill",
+      "hash": "7de0ed8d46d33ff6f14320de1c4d2ca9a6973efc24087af9daeb692852396e41",
+      "lastUpdated": "2025-12-12T15:27:35.803Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/quickstart"
+    },
+    "skills/best-practices.md": {
+      "slug": "agents-and-tools/agent-skills/best-practices",
+      "title": "Skills Best Practices",
+      "description": "Best practices for Skills",
+      "hash": "ebcc593fba18290ddce3ff3c856457929580538c4929047dff2a7a71b972e9dd",
+      "lastUpdated": "2025-12-12T15:27:36.048Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices"
+    },
+    "mcp/connector.md": {
+      "slug": "agents-and-tools/mcp-connector",
+      "title": "MCP Connector",
+      "description": "Connect to MCP servers from API",
+      "hash": "3a29aa52ce216887e70f38aecb51bf4f954746e038c8896ca7ffb6e148eab485",
+      "lastUpdated": "2025-12-12T15:27:36.272Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/mcp-connector"
+    },
+    "mcp/remote-servers.md": {
+      "slug": "agents-and-tools/remote-mcp-servers",
+      "title": "Remote MCP Servers",
+      "description": "Use remote MCP servers",
+      "hash": "42aeab377e3bd764a9661a58119f60b92a3da01cdcd96feefd935df1c4b47c98",
+      "lastUpdated": "2025-12-12T15:27:36.519Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agents-and-tools/remote-mcp-servers"
+    },
+    "agent-sdk/overview.md": {
+      "slug": "agent-sdk/overview",
+      "title": "Agent SDK Overview",
+      "description": "Build custom agents with Claude",
+      "hash": "78123c31fbd3697852c923fb5f45d8b51ea101251a2d558dc90abfe77e95e4e3",
+      "lastUpdated": "2025-12-12T15:27:36.736Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agent-sdk/overview"
+    },
+    "agent-sdk/quickstart.md": {
+      "slug": "agent-sdk/quickstart",
+      "title": "Agent SDK Quickstart",
+      "description": "Get started with Agent SDK",
+      "hash": "7fd096fdb4fd9ad8da8919286211137d2f154ca6f743835fa1d8fad8f2eee489",
+      "lastUpdated": "2025-12-12T15:27:37.239Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agent-sdk/quickstart"
+    },
+    "agent-sdk/typescript.md": {
+      "slug": "agent-sdk/typescript",
+      "title": "TypeScript SDK",
+      "description": "Agent SDK for TypeScript",
+      "hash": "d5af7ac88b9b1c15614f0c67cb822321b9aeb1ca40a1afc659613d0b18261bcb",
+      "lastUpdated": "2025-12-12T15:27:37.489Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agent-sdk/typescript"
+    },
+    "agent-sdk/python.md": {
+      "slug": "agent-sdk/python",
+      "title": "Python SDK",
+      "description": "Agent SDK for Python",
+      "hash": "93fbf63e9237d4992b782cc055b809a5cb5eff0f148ccaec9bbeb52adc3f8848",
+      "lastUpdated": "2025-12-12T15:27:37.740Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agent-sdk/python"
+    },
+    "agent-sdk/streaming-modes.md": {
+      "slug": "agent-sdk/streaming-vs-single-mode",
+      "title": "Streaming Modes",
+      "description": "Streaming vs single mode",
+      "hash": "936bba60eba33a99bf858a981dc6c0ce9d8a0769a4269f68ad41b1d540599168",
+      "lastUpdated": "2025-12-12T15:27:38.119Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agent-sdk/streaming-vs-single-mode"
+    },
+    "agent-sdk/permissions.md": {
+      "slug": "agent-sdk/permissions",
+      "title": "Permissions",
+      "description": "Agent permissions system",
+      "hash": "62218d7040353baffdad98d3a89a61801e703a80651b825f52926afbdb754a3d",
+      "lastUpdated": "2025-12-12T15:27:38.376Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agent-sdk/permissions"
+    },
+    "agent-sdk/sessions.md": {
+      "slug": "agent-sdk/sessions",
+      "title": "Sessions",
+      "description": "Managing agent sessions",
+      "hash": "a130b42084eed2e01f66582148757b1a676cbd998b47b34342ccb5bae407d6cb",
+      "lastUpdated": "2025-12-12T15:27:38.621Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agent-sdk/sessions"
+    },
+    "agent-sdk/structured-outputs.md": {
+      "slug": "agent-sdk/structured-outputs",
+      "title": "Structured Outputs",
+      "description": "Structured outputs in agents",
+      "hash": "0f78341b9b61c01f9188fdaac6f26583b7b65bfc026f8b97ec6088c5b50be758",
+      "lastUpdated": "2025-12-12T15:27:38.830Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agent-sdk/structured-outputs"
+    },
+    "agent-sdk/hosting.md": {
+      "slug": "agent-sdk/hosting",
+      "title": "Hosting",
+      "description": "Deploy and host agents",
+      "hash": "92c5a2b14ab8d39acf80a7f42d56fd8d9c35674e6e63d1de8fc1810a2fb431f5",
+      "lastUpdated": "2025-12-12T15:27:39.155Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agent-sdk/hosting"
+    },
+    "agent-sdk/secure-deployment.md": {
+      "slug": "agent-sdk/secure-deployment",
+      "title": "Secure Deployment",
+      "description": "Security best practices",
+      "hash": "66c8562c14d1928b597e2274206528cf00ca74f9a8ee3433ddd76bce091ff089",
+      "lastUpdated": "2025-12-12T15:27:39.372Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agent-sdk/secure-deployment"
+    },
+    "agent-sdk/mcp.md": {
+      "slug": "agent-sdk/mcp",
+      "title": "MCP in Agent SDK",
+      "description": "Using MCP with agents",
+      "hash": "da0b9481a0ae3c7bbdf4d320411500b1a43e3fcd29aa4e58d76be801c669d79b",
+      "lastUpdated": "2025-12-12T15:27:39.607Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agent-sdk/mcp"
+    },
+    "agent-sdk/custom-tools.md": {
+      "slug": "agent-sdk/custom-tools",
+      "title": "Custom Tools",
+      "description": "Add custom tools to agents",
+      "hash": "d018c41eb7ff39ed00e26943858ac89e386b78c683a2a78b1432875e68023413",
+      "lastUpdated": "2025-12-12T15:27:39.841Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agent-sdk/custom-tools"
+    },
+    "agent-sdk/subagents.md": {
+      "slug": "agent-sdk/subagents",
+      "title": "Subagents",
+      "description": "Create and manage subagents",
+      "hash": "03cf2b1b5fc475bd218ea92058c0df6836d707a870295250c6735cb83aee68f7",
+      "lastUpdated": "2025-12-12T15:27:40.066Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/agent-sdk/subagents"
+    },
+    "evaluation/define-success.md": {
+      "slug": "test-and-evaluate/define-success",
+      "title": "Define Success",
+      "description": "Define success criteria",
+      "hash": "8bc68de1743a9d7b6ed3f93ab2fdcb99948a8efbe4de29f770b39270d7157989",
+      "lastUpdated": "2025-12-12T15:27:40.300Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/test-and-evaluate/define-success"
+    },
+    "evaluation/develop-tests.md": {
+      "slug": "test-and-evaluate/develop-tests",
+      "title": "Develop Tests",
+      "description": "Build test suites",
+      "hash": "37bdcec2a7e6a9511176529e60bdbe53563c844e84c427c3d49d1193c169e4dd",
+      "lastUpdated": "2025-12-12T15:27:40.531Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/test-and-evaluate/develop-tests"
+    },
+    "evaluation/eval-tool.md": {
+      "slug": "test-and-evaluate/eval-tool",
+      "title": "Eval Tool",
+      "description": "Use the evaluation tool",
+      "hash": "991c735f889158503321480f0e42c637be9a0974c060c04555dfcf92930fca27",
+      "lastUpdated": "2025-12-12T15:27:40.774Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/test-and-evaluate/eval-tool"
+    },
+    "guardrails/reduce-hallucinations.md": {
+      "slug": "test-and-evaluate/strengthen-guardrails/reduce-hallucinations",
+      "title": "Reduce Hallucinations",
+      "description": "Minimize false information",
+      "hash": "2ddda05c8ac5af7140be52fb9b725342c4a70bcb240ce920e5aa0c7b08afb22d",
+      "lastUpdated": "2025-12-12T15:27:40.986Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations"
+    },
+    "guardrails/increase-consistency.md": {
+      "slug": "test-and-evaluate/strengthen-guardrails/increase-consistency",
+      "title": "Increase Consistency",
+      "description": "Improve output consistency",
+      "hash": "4aaea6ff3720af487d0dd93986b6d5c851fc48e410e47f372faad8cc6df4dd44",
+      "lastUpdated": "2025-12-12T15:27:41.364Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency"
+    },
+    "guardrails/mitigate-jailbreaks.md": {
+      "slug": "test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks",
+      "title": "Mitigate Jailbreaks",
+      "description": "Prevent prompt injection",
+      "hash": "66324ee2cd0f4420f4d7302086d4e36e2fc2f9ceaa2c265710d74fc6e14c9157",
+      "lastUpdated": "2025-12-12T15:27:41.600Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks"
+    },
+    "guardrails/reduce-latency.md": {
+      "slug": "test-and-evaluate/strengthen-guardrails/reduce-latency",
+      "title": "Reduce Latency",
+      "description": "Optimize response time",
+      "hash": "c31a3c759ebc7d15aca097b7fa22758ecc43a59fe9acdff0f123f9cfcd3505bf",
+      "lastUpdated": "2025-12-12T15:27:41.830Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-latency"
+    },
+    "api/overview.md": {
+      "slug": "api/overview",
+      "title": "API Overview",
+      "description": "API reference overview",
+      "hash": "6793977dd2072368724ca442f24e0230eee8711bfa13cada83d12a40dddd5669",
+      "lastUpdated": "2025-12-12T15:27:42.062Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/api/overview"
+    },
+    "api/client-sdks.md": {
+      "slug": "api/client-sdks",
+      "title": "Client SDKs",
+      "description": "Official SDK libraries",
+      "hash": "53157cb6a5595c07174b3938daba2034c4f0b5563bb03823990c660ace6d0790",
+      "lastUpdated": "2025-12-12T15:27:42.474Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/api/client-sdks"
+    },
+    "api/errors.md": {
+      "slug": "api/errors",
+      "title": "Errors",
+      "description": "Error codes and handling",
+      "hash": "c0d7a0ae9520ecba44e46b446cb25479b8379b1c46fdcab290941f2f1267ea33",
+      "lastUpdated": "2025-12-12T15:27:42.698Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/api/errors"
+    },
+    "api/rate-limits.md": {
+      "slug": "api/rate-limits",
+      "title": "Rate Limits",
+      "description": "API rate limits",
+      "hash": "e096f7ba4d643a2185a78b929b11a8cb1f76c2a596d2049cc5f692ce1189a330",
+      "lastUpdated": "2025-12-12T15:27:42.942Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/api/rate-limits"
+    },
+    "api/versioning.md": {
+      "slug": "api/versioning",
+      "title": "Versioning",
+      "description": "API versioning",
+      "hash": "3014ee9b4f1c37136bd9b6dd4b28ab1b54b9cfa8bf4eac64cb2ad4ca58c8abb9",
+      "lastUpdated": "2025-12-12T15:27:43.334Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/api/versioning"
+    },
+    "api/openai-sdk.md": {
+      "slug": "api/openai-sdk",
+      "title": "OpenAI SDK Compatibility",
+      "description": "Use OpenAI SDK with Claude",
+      "hash": "501791395f04e657f0dc086ff677e232a3c4825adcd674c603ad127c815cd9fb",
+      "lastUpdated": "2025-12-12T15:27:43.556Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/api/openai-sdk"
+    },
+    "cloud/amazon-bedrock.md": {
+      "slug": "build-with-claude/claude-on-amazon-bedrock",
+      "title": "Amazon Bedrock",
+      "description": "Claude on AWS Bedrock",
+      "hash": "c1816d51c31d242853fbbb30711fefa7e66fc7ac79886c102b620d3e76da1f65",
+      "lastUpdated": "2025-12-12T15:27:43.779Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/claude-on-amazon-bedrock"
+    },
+    "cloud/vertex-ai.md": {
+      "slug": "build-with-claude/claude-on-vertex-ai",
+      "title": "Google Vertex AI",
+      "description": "Claude on Google Cloud",
+      "hash": "9ccc8f9ef0b86d2b061173294f15c1bdacae52eb47d2957fee2df2dcce64d03b",
+      "lastUpdated": "2025-12-12T15:27:44.225Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/claude-on-vertex-ai"
+    },
+    "cloud/microsoft-foundry.md": {
+      "slug": "build-with-claude/claude-in-microsoft-foundry",
+      "title": "Microsoft Foundry",
+      "description": "Claude on Azure",
+      "hash": "363374eecb2af300724af3eecb971319d4bec075655a867f9847fbeb84831bd0",
+      "lastUpdated": "2025-12-12T15:27:44.442Z",
+      "sourceUrl": "https://platform.claude.com/docs/en/build-with-claude/claude-in-microsoft-foundry"
+    }
+  }
+}

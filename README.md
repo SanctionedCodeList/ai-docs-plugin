@@ -6,6 +6,7 @@ A Claude Code plugin providing documentation and best practices for AI/LLM libra
 
 This plugin provides **Skills** that Claude can use to access up-to-date documentation and best practices for:
 
+- **Claude API** - Messages API, tool use, Agent SDK, prompt engineering
 - **Claude Code** - CLI usage, hooks, plugins, MCP integration
 - **Google Gemini** - GenAI SDK, multimodal, structured outputs, function calling
 
@@ -48,6 +49,16 @@ This plugin provides **Skills** that Claude can use to access up-to-date documen
 
 ## Skills Included
 
+### claude-api
+
+Documentation for Claude/Anthropic API:
+- Messages API and streaming
+- Tool use and function calling
+- Agent SDK (Python & TypeScript)
+- Prompt engineering techniques
+- Extended thinking and structured outputs
+- MCP connector integration
+
 ### claude-code
 
 Documentation for Claude Code CLI:
@@ -71,11 +82,15 @@ Documentation for Google Gemini API:
 Each skill has a sync script to update documentation from official sources:
 
 ```bash
-# Sync Claude Code docs
+# Sync Claude API docs (platform.claude.com)
+cd skills/claude-api
+bun run scripts/sync-docs.ts
+
+# Sync Claude Code docs (code.claude.com)
 cd skills/claude-code
 bun run scripts/sync-docs.ts
 
-# Sync Gemini docs
+# Sync Gemini docs (ai.google.dev)
 cd skills/gemini-dev
 bun run scripts/sync-docs.ts
 ```
@@ -87,6 +102,11 @@ ai-docs-plugin/
 ├── .claude-plugin/
 │   └── plugin.json          # Plugin manifest
 ├── skills/
+│   ├── claude-api/
+│   │   ├── SKILL.md         # Best practices + doc index
+│   │   ├── scripts/
+│   │   │   └── sync-docs.ts
+│   │   └── resources/       # 84 synced doc files
 │   ├── claude-code/
 │   │   ├── SKILL.md         # Best practices + doc index
 │   │   ├── scripts/
