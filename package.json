@@ -1,0 +1,11 @@
+{
+  "name": "ai-docs-plugin",
+  "version": "1.8.0",
+  "description": "AI library documentation and best practices for Claude Code",
+  "scripts": {
+    "sync": "bun run scripts/sync-all.ts",
+    "sync:dry": "bun run scripts/sync-all.ts --dry-run"
+  },
+  "author": "Parker Hancock",
+  "license": "MIT"
+}

@@ -186,7 +186,22 @@ Meta-guide for creating documentation skills:
 
 ## Syncing Documentation
 
-Each skill has a sync script to update documentation from official sources:
+### Sync All Skills
+
+```bash
+# Sync all documentation (runs all skills sequentially)
+bun run sync
+
+# Dry run to see what would be synced
+bun run sync:dry
+
+# Sync specific skills only
+bun run scripts/sync-all.ts --skill=xai,fastmcp
+```
+
+### Sync Individual Skills
+
+Each skill has its own sync script:
 
 ```bash
 # Sync Claude API docs (platform.claude.com)
